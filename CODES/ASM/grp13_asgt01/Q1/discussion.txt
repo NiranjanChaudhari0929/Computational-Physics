@@ -1,0 +1,20 @@
+for L=1 
+the true value of magnetic field (by solving the integral is = 8.994430382*10^-8
+error from trapezoidal is around 3.56 * 10^-4 %
+error from gaussian is around 3.72 * 10^-4 %
+
+it is very close to the actual value because we have taken step size of trapezoidal to be very small and for gaussian the function can be 
+approximated to polynomial of degree 10 (as z varies from -0.5 to 0.5) so it gives relatively accurate answer.
+
+
+
+
+for L=100
+the true value of magnetic field by solving the integral is 1.99960612*10^-9
+error from trapezoidal is around 9.6 %
+error for gaussian is around 266%
+
+the reason for 9.6 % error for trapezoidal method is because step size is not small enough to get accurate answer.
+
+the reason for very large error in gaussian is because we cannot approximate the integrand to a polynomial with reasonable degrees
+for this case we have taken degree of polynomial to be 10 (for which z varies from -50 to 50) thus the reason for very large error.

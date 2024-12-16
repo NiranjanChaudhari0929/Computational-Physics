@@ -1,0 +1,5 @@
+the function at x=0 is the inflection point of the curve(2nd derivatives changes sign).
+The curve is concave down (x<0) and concave up (x>0).
+Newton Raphson method when applied from inflection  point(which means taking the initial guess
+as inflection point) the values of Xn+1 will repeat and will not give accurate values (unless we take some other value as initial guess).
+Hence we will not get accurate value of root.
